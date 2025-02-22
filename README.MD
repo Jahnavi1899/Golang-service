@@ -18,8 +18,11 @@ This repository contains a Go assignment. The assignment contains two APIs
     ```sh
     go mod tidy
     ```
-4. Run go main.go
-
+4. Run 
+    ```sh
+    go main.go
+    ```
+    
 ## Usage
 
 Provide instructions on how to use the project.
