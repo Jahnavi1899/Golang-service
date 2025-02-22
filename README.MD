@@ -20,9 +20,9 @@ This repository contains a Go assignment. The assignment contains two APIs
     ```
 4. Run 
     ```sh
-    go main.go
+    go run main.go
     ```
-    
+
 ## Usage
 
 Provide instructions on how to use the project.
