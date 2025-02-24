@@ -132,6 +132,7 @@ There are two endpoints to access the service:
             "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-2222",
             "risk_factors": ["Authentication Bypass", "High CVSS Score", "Proof of Concept Exploit Available"]
         },
+        ...
     ]
     ```
 ## Docker
