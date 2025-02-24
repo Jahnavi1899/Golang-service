@@ -15,7 +15,7 @@ This repository contains a Go-based application for scanning and querying the JS
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/go-vulnerability-scan.git
+    git clone https://github.com/Jahnavi1899/go-vulnerability-scan.git
     ```
 2. Navigate to the project directory:
     ```sh
