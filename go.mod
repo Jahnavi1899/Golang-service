@@ -1,4 +1,4 @@
-module example.com/main
+module go-vulnerability-scan
 
 go 1.24.0
 
