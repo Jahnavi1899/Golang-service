@@ -9,7 +9,8 @@ RUN go mod download
 
 COPY . .
 
-RUN GOARCH=amd64 go build -o main main.go
+ENV CGO_ENABLED=1
+RUN go build -o main main.go
 
 FROM alpine:latest
 
