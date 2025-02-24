@@ -128,6 +128,17 @@ To run the application using Docker, follow these steps:
 The server will start on port `8080`.
 
 ## Folder Structure
-```
-go-vulnerability-scan/ ├── api/ │ ├── api.go │ ├── api_test.go ├── config/ │ ├── config.go ├── db/ │ ├── db.go │ ├── db_test.go ├── main.go ├── Dockerfile ├── go.mod ├── go.sum ├── README.md
-```
+go-vulnerability-scan/
+├── api/
+│   ├── api.go
+│   ├── api_test.go
+├── config/
+│   ├── config.go
+├── db/
+│   ├── db.go
+│   ├── db_test.go
+├── main.go
+├── Dockerfile
+├── go.mod
+├── go.sum
+├── README.md
