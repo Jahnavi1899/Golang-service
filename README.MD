@@ -134,6 +134,20 @@ There are two endpoints to access the service:
         },
     ]
     ```
+## Docker
+
+To run the application using Docker, follow these steps:
+
+1. Build the Docker image:
+    ```sh
+    docker build -t go-vulnerability-scan .
+    ```
+2. Run the Docker container:
+    ```sh
+    docker run -p 8080:8080 go-vulnerability-scan
+    ```
+
+The server will start on port `8080`.
 
 ## Testing
 
@@ -154,19 +168,5 @@ To run tests for this project, follow these steps:
 
 This will execute all the tests in the project and display the results.
 
-## Docker
-
-To run the application using Docker, follow these steps:
-
-1. Build the Docker image:
-    ```sh
-    docker build -t go-vulnerability-scan .
-    ```
-2. Run the Docker container:
-    ```sh
-    docker run -p 8080:8080 go-vulnerability-scan
-    ```
-
-The server will start on port `8080`.
 
 
